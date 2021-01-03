@@ -1,0 +1,260 @@
+/*---Common Style---*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+}
+a, a:hover{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+    border: none;
+}
+ol,ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,.navbar{
+    margin: 0;
+    padding: 0;
+}
+body{
+   font-family: 'Open Sans',sans-serif;
+}
+/*---Common Style---*/
+
+/*---Start Navigation---*/
+.navigation{
+    background: #02918c;
+    padding: 8px 0px;
+}
+.main-nav .nav-item .nav-link{
+   color: #fff;
+    margin-right: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;   
+}
+.main-nav .nav-item .nav-link:hover{
+    color: #d8d80b;
+    font-weight: 600; 
+}
+
+/*---End Navigation---*/
+
+
+/*---Start Slider---*/
+.slider{
+    background: url('../img/service-small-1.jpg') no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.slider-content{
+    text-align: center;
+}
+.slider-content h5{
+    color: #fff;
+    font-size:24px;
+}
+.slider-content h1{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: 22px;
+    text-transform: uppercase;
+    margin: 8px 0px;
+}
+.slider-content p{
+    color:#fff;  
+}
+.slider-content a{
+    background: #cfc91d;
+    padding: 15px 55px;
+    display: inline-block;
+    margin-top: 55px;
+    border-radius: 5px;
+    color: #0b1016;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+/*---End Slider---*/
+.about{
+    padding: 90px 0px;
+    text-align: center;
+}
+.about h2{
+    font-weight: 800;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 35px;
+    color:#02918c;
+    text-transform: uppercase;
+}
+.ajaira,.about p {
+    color: #7e8287;
+}
+.about p{
+    margin: 15px 0px;
+}
+.about span{
+    font-size: 25px;
+    font-weight: 700;
+}
+.sub-about{
+    padding: 50px 0px;
+}
+.about-sub i{
+    color:#0f9792;
+    font-size: 35px;
+}
+.about-sub h4{
+    margin: 20px 0px;
+    color: #7e8287;
+    font-weight: 800;
+}
+.color-r{
+    height: 250px;
+    width:1px;
+    float: right;
+    background: #c6c6c6;
+    margin-top:-200px; 
+}
+.service{
+    padding: 55px 0px;
+    background:url('../img/service-back.jpg') no-repeat; 
+    background-position: right;
+    background-size: cover;
+    height: 100vh;
+}
+.sub{
+    display: flex;
+}
+
+.service-content h2{
+    font-weight: 800;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 50px;
+    color:#02918c;
+    text-transform: uppercase;
+}
+.service-content p{
+    margin: 20px 0px;
+    color: #7e8287;
+    line-height: 25px;
+}
+.sub-service h4{
+    font-size: 18px;
+}
+
+.about-content h2{
+    font-weight: 800;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 50px;
+    color:#02918c;
+    text-transform: uppercase;
+}
+.ajaira,.about-content p {
+    color: #7e8287;
+}
+.about-content p{
+    margin: 15px 0px;
+}
+.work{
+    text-align: center;
+    padding: 80px 0;
+    margin: 0px -15px;
+    display: inline-block;
+}
+.container-fluid {
+  position: relative;
+
+}
+.overlay{
+    position: absolute;
+    background: rgba(24, 136, 129, 0.56);
+    top:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .5s ease;
+  
+}
+.overlay:hover {
+    opacity: 1;
+    
+}
+.overlay-content h4{
+   color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.overlay-content p{
+    color: #fff;
+    font-size: 16px;
+}
+.contact{
+   padding: 0px 0px;
+   text-align: center;
+    padding-bottom: 40px;
+}
+.contact-from{
+    padding: 0px 0px 100px;
+    background: #0b0b0b;
+
+}
+.form-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-row input{
+    margin-top: 20px;
+    border: none;
+    background: transparent;
+    border-radius: 0px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    text-transform: uppercase;
+    height: 60px;
+}
+.form-row input:focus{
+    box-shadow:none;
+    outline: none !important;
+    background: transparent;   
+}
+.contact-sub .button{
+    background: #cfc91d;
+    margin: 0 auto;
+    padding: 20px 40px;
+    width: 40px;
+}
+.button-jhamela{
+    padding: 100px 0px;
+    text-align: center;
+     background: #cfc91d;
+    margin: 0 auto;
+    padding: 20px 40px;
+    width: 220px;
+    margin-top: 100px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button-jhamela a{
+    color: #000;
+}
+.footer{
+    background: #000;
+    padding: 20px 0px;
+    
+}
+.footer p{
+    color: #76797e;
+}
